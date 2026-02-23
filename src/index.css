@@ -9,7 +9,9 @@
 }
 
 /* Não remover este item abaixo pois ele faz com que as seções possam alternar */
-:root {
-  --primaryDark: theme(colors.primaryDark);
+@layer base {
+  :root {
+    --primaryDark: theme(colors.primaryDark);
+  }
 }
 /* Não remover este item acima pois ele faz com que as seções possam alternar */

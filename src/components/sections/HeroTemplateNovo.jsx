@@ -69,8 +69,8 @@ function HeroTemplateNovo({
 
       break;
     case "defaultDark":
-      backgroundMode = "bg-[color-mix(in_srgb,var(--primaryDark),black_30%)]";
-      bgFaixaHero = "bg-primaryDark";
+      backgroundMode = "bg-transparent";
+      bgFaixaHero = "bg-[color-mix(in_srgb,var(--primaryDark),black_70%)]";
       text = "text-corTitulosBranca";
       textOpacity = "text-corOutrosTextosBranca";
       textDestaque = "text-primaryLight";

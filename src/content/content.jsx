@@ -46,10 +46,10 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Gleiton Senna",
+  name: "Dr. Andherson de Siqueira",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "trabalhista-drgleiton.advespecialista.adv.br", // Sem "www"
+  domain: "trabalhista-andherson.advespecialista.adv.br", // Sem "www"
   phone: {
     ddd: "71",
     firstPart: "99656", // Apenas os 5 primeiros números (incluindo o 9)
@@ -98,7 +98,7 @@ export const infos = {
   youtubeProfile: "",
 
   whatsappDefaultMessage:
-    "Olá! Vim do Google e preciso de um Advogado Trabalhista. Pode me ajudar?",
+    "Olá! Vim do anúncio no Google e preciso de Advogado Trabalhista. Pode me ajudar?",
   whatsChatDefaultMessage:
     "Gostaria de falar conosco agora mesmo? Clque abaixo 👇",
   slogan: "",
@@ -404,7 +404,7 @@ const content = {
         img: aboutImg,
         alt: "Imagem ilustrativa da Seção Sobre",
       },
-      miniTag: <>QUEM É O DR. GLEITON SENNA</>,
+      miniTag: <>QUEM É O DR. ANDHERSON DE SIQUEIRA</>,
       FirstPart: <span> Referência em Direito</span>,
       Destaque: <span className="italic font-light"> Trabalhista</span>,
       SecondPart: <span></span>,
@@ -415,12 +415,11 @@ const content = {
       ),
       paragraph: (
         <div>
-          Com atuação sólida em Direito do Trabalho, o Dr. Gleiton Senna é
-          reconhecido pela condução estratégica de casos envolvendo rescisões,
+          Com atuação sólida em Direito do Trabalho, o Dr. Andherson de Siqueira
+          é reconhecido pela condução estratégica de casos envolvendo rescisões,
           verbas não pagas, assédio e conflitos trabalhistas complexos. Sua
           abordagem é técnica, criteriosa e focada na proteção integral dos
           direitos do trabalhador.
-          <br />
           <br />
           Cada caso é analisado com profundidade e responsabilidade, oferecendo
           ao cliente clareza, segurança e direcionamento preciso. O compromisso
