@@ -51,9 +51,9 @@ export const infos = {
   emailSecundario: "A_Definir", // Email desejado pelo cliente
   domain: "trabalhista-andherson.advespecialista.adv.br", // Sem "www"
   phone: {
-    ddd: "71",
-    firstPart: "99656", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "7441", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "98539", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "2269", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "00",
