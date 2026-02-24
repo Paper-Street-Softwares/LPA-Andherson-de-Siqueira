@@ -19,8 +19,6 @@ import { Dialog } from "primereact/dialog";
 
 import "primereact/resources/themes/lara-light-cyan/theme.css";
 
-const features = Object.values(content.texts.features.cards);
-
 function FeaturesNovaTemplate({ colorMode, frasesDestaque, accordion, modal }) {
   // Definindo classes dinamicamente conforme o colorMode
   let backgroundMode,
@@ -253,10 +251,9 @@ function FeaturesNovaTemplate({ colorMode, frasesDestaque, accordion, modal }) {
                   </div>
                 ) : (
                   <div className="grid tablet1:grid-cols-2 gap-6">
-                    {features.slice(0, 6).map((feature, idx) => (
-                      <MotionDivDownToUp>
+                    {features.slice(0, 8).map((feature, idx) => (
+                      <MotionDivDownToUp key={idx}>
                         <div
-                          key={idx}
                           className={`group p-6 rounded-xl ${cardBg} hover:scale-105 transition-all duration-700`}
                         >
                           <div

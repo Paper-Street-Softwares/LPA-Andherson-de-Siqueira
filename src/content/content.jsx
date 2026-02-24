@@ -173,12 +173,7 @@ const content = {
       title: <>O que é importante saber sobre Direito Trabalhista</>,
       cards: {
         card1: {
-          title: (
-            <>
-              Doutor, fui demitido. Tenho certeza que a empresa pagou tudo certo
-              mesmo?
-            </>
-          ),
+          title: <>Fui demitido. Será que a empresa pagou tudo certo?</>,
           paragraph: (
             <>
               Nem sempre a empresa paga todas as verbas corretamente. É comum
@@ -236,6 +231,36 @@ const content = {
             </>
           ),
         },
+        card5: {
+          title: (
+            <>
+              Estou pensando em pedir demissão porque a empresa está errando
+              comigo. Vou perder meus direitos?
+            </>
+          ),
+          paragraph: (
+            <>
+              Nem sempre. Quando a empresa comete faltas graves — como atraso de
+              salário, assédio ou falta de pagamento de direitos — pode ser
+              possível pedir a rescisão indireta. Nesse caso, você sai e recebe
+              como se tivesse sido demitido. É essencial analisar a situação
+              antes de tomar qualquer decisão.
+            </>
+          ),
+        },
+        card6: {
+          title: (
+            <>Fui demitido e a empresa não pagou tudo. O que posso fazer?</>
+          ),
+          paragraph: (
+            <>
+              O pagamento das verbas rescisórias deve ser feito no prazo legal.
+              Se houver atraso ou valores incorretos, o trabalhador pode exigir
+              a regularização e até multa pelo descumprimento. Uma análise
+              detalhada evita que você deixe dinheiro para trás.
+            </>
+          ),
+        },
       },
       fraseObs: (
         <>Entre em contato conosco e lhe daremos todo o suporte necessário</>
@@ -270,7 +295,6 @@ const content = {
           buttonLabelModal: "Fale Conosco",
           buttonLabel: "Saiba Mais",
         },
-
         card2: {
           title: <>Horas extras</>,
           subtitle: <>Cobrança de horas não pagas e adicionais.</>,
@@ -286,7 +310,6 @@ const content = {
           buttonLabelModal: "Fale Conosco",
           buttonLabel: "Saiba Mais",
         },
-
         card3: {
           title: <>Assédio moral</>,
           subtitle: <>Proteção contra abusos e indenização justa.</>,
@@ -302,7 +325,6 @@ const content = {
           buttonLabelModal: "Fale Conosco",
           buttonLabel: "Saiba Mais",
         },
-
         card4: {
           title: <>Desvio de função</>,
           subtitle: <>Reconhecimento e diferença salarial devida.</>,
@@ -318,7 +340,6 @@ const content = {
           buttonLabelModal: "Fale Conosco",
           buttonLabel: "Saiba Mais",
         },
-
         card5: {
           title: <>FGTS e 13º</>,
           subtitle: <>Valores não depositados podem ser cobrados.</>,
@@ -334,7 +355,6 @@ const content = {
           buttonLabelModal: "Fale Conosco",
           buttonLabel: "Saiba Mais",
         },
-
         card6: {
           title: <>Acidente de trabalho</>,
           subtitle: <>Garantia de direitos e possível indenização.</>,
@@ -347,6 +367,36 @@ const content = {
             </div>
           ),
           icon: <BriefcaseMedical />,
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
+        },
+        card7: {
+          title: <>Rescisão indireta</>,
+          subtitle: <>Quando a empresa erra, você pode sair com direitos.</>,
+          description: (
+            <div>
+              A_Definir
+              <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          icon: <FileText />,
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
+        },
+        card8: {
+          title: <>Verbas rescisórias não pagas</>,
+          subtitle: <>Cobramos valores que não foram pagos.</>,
+          description: (
+            <div>
+              A_Definir
+              <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          icon: <HandCoins />,
           buttonLabelModal: "Fale Conosco",
           buttonLabel: "Saiba Mais",
         },
