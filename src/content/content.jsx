@@ -173,6 +173,55 @@ const content = {
       title: <>O que é importante saber sobre Direito Trabalhista</>,
       cards: {
         card1: {
+          title: (
+            <>
+              Estou pensando em pedir demissão porque a empresa está errando
+              comigo. Vou perder meus direitos?
+            </>
+          ),
+          paragraph: (
+            <>
+              Se você pedir demissão por conta própria, pode perder verbas
+              importantes. Mas atenção: quando a empresa comete faltas graves
+              como atraso de salário, falta de FGTS ou outras irregularidades,
+              pode ser caso de rescisão indireta.
+              <br />A rescisão indireta é quando o trabalhador “demite” a
+              empresa e recebe como se tivesse sido dispensado sem justa causa.
+              <br />
+              Antes de pedir demissão, é essencial analisar a situação. Uma
+              decisão precipitada pode fazer você abrir mão de valores que tem
+              direito a receber.
+            </>
+          ),
+        },
+        card2: {
+          title: (
+            <>
+              Fui demitido e a empresa não pagou nenhuma verba rescisória. O que
+              fazer?
+            </>
+          ),
+          paragraph: (
+            <>
+              Se você foi demitido e não recebeu nada, a empresa está errada.
+              <br />A rescisão deve ser paga dentro do prazo legal.
+              <br />
+              <br />
+              Quando não há pagamento, o trabalhador pode exigir: <br />
+              saldo de salário <br />
+              férias + 1/3 <br />
+              13º proporcional <br />
+              aviso prévio <br />
+              multa do FGTS <br />
+              multa pelo atraso <br />
+              <br />
+              Ficar esperando só beneficia a empresa.
+              <br />
+              Se não houve pagamento, é hora de cobrar seus direitos.
+            </>
+          ),
+        },
+        card3: {
           title: <>Fui demitido. Será que a empresa pagou tudo certo?</>,
           paragraph: (
             <>
@@ -183,7 +232,7 @@ const content = {
             </>
           ),
         },
-        card2: {
+        card4: {
           title: (
             <>
               Trabalhei fazendo hora extra, mas nunca recebi. Ainda posso
@@ -199,7 +248,7 @@ const content = {
             </>
           ),
         },
-        card3: {
+        card5: {
           title: (
             <>
               Meu chefe me obrigava a fazer funções que não eram do meu cargo.
@@ -215,7 +264,7 @@ const content = {
             </>
           ),
         },
-        card4: {
+        card6: {
           title: (
             <>
               Estou sofrendo pressão e humilhação no trabalho. O que eu posso
@@ -228,36 +277,6 @@ const content = {
               caracterizar assédio moral. O trabalhador tem direito à proteção e
               pode buscar indenização. É importante reunir provas e agir da
               forma correta.
-            </>
-          ),
-        },
-        card5: {
-          title: (
-            <>
-              Estou pensando em pedir demissão porque a empresa está errando
-              comigo. Vou perder meus direitos?
-            </>
-          ),
-          paragraph: (
-            <>
-              Nem sempre. Quando a empresa comete faltas graves — como atraso de
-              salário, assédio ou falta de pagamento de direitos — pode ser
-              possível pedir a rescisão indireta. Nesse caso, você sai e recebe
-              como se tivesse sido demitido. É essencial analisar a situação
-              antes de tomar qualquer decisão.
-            </>
-          ),
-        },
-        card6: {
-          title: (
-            <>Fui demitido e a empresa não pagou tudo. O que posso fazer?</>
-          ),
-          paragraph: (
-            <>
-              O pagamento das verbas rescisórias deve ser feito no prazo legal.
-              Se houver atraso ou valores incorretos, o trabalhador pode exigir
-              a regularização e até multa pelo descumprimento. Uma análise
-              detalhada evita que você deixe dinheiro para trás.
             </>
           ),
         },
@@ -281,96 +300,6 @@ const content = {
       subtitleMessageFeature: <>ética trabalhista</>,
       cards: {
         card1: {
-          title: <>Rescisão trabalhista</>,
-          subtitle: <>Cálculo correto das verbas e valores atrasados.</>,
-          description: (
-            <div>
-              A_Definir
-              <br />
-              <br />
-              A_Definir
-            </div>
-          ),
-          icon: <FileText />,
-          buttonLabelModal: "Fale Conosco",
-          buttonLabel: "Saiba Mais",
-        },
-        card2: {
-          title: <>Horas extras</>,
-          subtitle: <>Cobrança de horas não pagas e adicionais.</>,
-          description: (
-            <div>
-              A_Definir
-              <br />
-              <br />
-              A_Definir
-            </div>
-          ),
-          icon: <CircleDollarSign />,
-          buttonLabelModal: "Fale Conosco",
-          buttonLabel: "Saiba Mais",
-        },
-        card3: {
-          title: <>Assédio moral</>,
-          subtitle: <>Proteção contra abusos e indenização justa.</>,
-          description: (
-            <div>
-              A_Definir
-              <br />
-              <br />
-              A_Definir
-            </div>
-          ),
-          icon: <UserX />,
-          buttonLabelModal: "Fale Conosco",
-          buttonLabel: "Saiba Mais",
-        },
-        card4: {
-          title: <>Desvio de função</>,
-          subtitle: <>Reconhecimento e diferença salarial devida.</>,
-          description: (
-            <div>
-              A_Definir
-              <br />
-              A_Definir
-              <br />
-            </div>
-          ),
-          icon: <HardHat />,
-          buttonLabelModal: "Fale Conosco",
-          buttonLabel: "Saiba Mais",
-        },
-        card5: {
-          title: <>FGTS e 13º</>,
-          subtitle: <>Valores não depositados podem ser cobrados.</>,
-          description: (
-            <div>
-              A_Definir
-              <br />
-              <br />
-              A_Definir
-            </div>
-          ),
-          icon: <Gavel />,
-          buttonLabelModal: "Fale Conosco",
-          buttonLabel: "Saiba Mais",
-        },
-        card6: {
-          title: <>Acidente de trabalho</>,
-          subtitle: <>Garantia de direitos e possível indenização.</>,
-          description: (
-            <div>
-              A_Definir
-              <br />
-              <br />
-              A_Definir
-            </div>
-          ),
-          icon: <BriefcaseMedical />,
-          buttonLabelModal: "Fale Conosco",
-          buttonLabel: "Saiba Mais",
-        },
-        card7: {
           title: <>Rescisão indireta</>,
           subtitle: <>Quando a empresa erra, você pode sair com direitos.</>,
           description: (
@@ -385,7 +314,7 @@ const content = {
           buttonLabelModal: "Fale Conosco",
           buttonLabel: "Saiba Mais",
         },
-        card8: {
+        card2: {
           title: <>Verbas rescisórias não pagas</>,
           subtitle: <>Cobramos valores que não foram pagos.</>,
           description: (
@@ -397,6 +326,96 @@ const content = {
             </div>
           ),
           icon: <HandCoins />,
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
+        },
+        card3: {
+          title: <>Rescisão trabalhista</>,
+          subtitle: <>Cálculo correto das verbas e valores atrasados.</>,
+          description: (
+            <div>
+              A_Definir
+              <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          icon: <FileText />,
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
+        },
+        card4: {
+          title: <>Horas extras</>,
+          subtitle: <>Cobrança de horas não pagas e adicionais.</>,
+          description: (
+            <div>
+              A_Definir
+              <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          icon: <CircleDollarSign />,
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
+        },
+        card5: {
+          title: <>Assédio moral</>,
+          subtitle: <>Proteção contra abusos e indenização justa.</>,
+          description: (
+            <div>
+              A_Definir
+              <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          icon: <UserX />,
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
+        },
+        card6: {
+          title: <>Desvio de função</>,
+          subtitle: <>Reconhecimento e diferença salarial devida.</>,
+          description: (
+            <div>
+              A_Definir
+              <br />
+              A_Definir
+              <br />
+            </div>
+          ),
+          icon: <HardHat />,
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
+        },
+        card7: {
+          title: <>FGTS e 13º</>,
+          subtitle: <>Valores não depositados podem ser cobrados.</>,
+          description: (
+            <div>
+              A_Definir
+              <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          icon: <Gavel />,
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
+        },
+        card8: {
+          title: <>Acidente de trabalho</>,
+          subtitle: <>Garantia de direitos e possível indenização.</>,
+          description: (
+            <div>
+              A_Definir
+              <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          icon: <BriefcaseMedical />,
           buttonLabelModal: "Fale Conosco",
           buttonLabel: "Saiba Mais",
         },
