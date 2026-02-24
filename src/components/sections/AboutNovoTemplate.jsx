@@ -108,7 +108,7 @@ function AboutNovoTemplate({ ButtonModal, colorMode, benefits }) {
                   />
                   <MotionDivDownToUp>
                     <p
-                      className={`font-secondFont font-light text-sm tablet1:text-lg leading-relaxed mt-6 ${textOpacity}`}
+                      className={`font-secondFont font-light text-sm tablet1:text-lg leading-relaxed mt-6 text-justify ${textOpacity}`}
                     >
                       {content.texts.about.paragraph}
                     </p>

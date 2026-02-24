@@ -78,7 +78,7 @@ function CardsImportants({
     <MotionDivDownToUp>
       <div className="grid">
         <div
-          className={`group p-6 rounded-xl ${cardBg} hover:scale-105 transition-all duration-700 max-w-[500px]`}
+          className={`group p-6 rounded-xl ${cardBg} hover:scale-105 transition-all duration-700 max-w-[500px] text-justify`}
         >
           <div
             className={`w-10 h-10 rounded-full ${iconBg} mb-4 flex items-center justify-center shadow-md transition-transform`}

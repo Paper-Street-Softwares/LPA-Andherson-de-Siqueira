@@ -158,7 +158,7 @@ function StepsNovoTemplate({ colorMode }) {
               <div className="space-y-8 ">
                 {steps.map((item, idx) => (
                   <MotionDivDownToUp>
-                    <div key={idx} className="flex gap-6 relative">
+                    <div key={idx} className="flex gap-6 relative text-justify">
                       {idx !== steps.length - 1 && (
                         <div
                           className={`absolute left-[1.65rem] top-12 bottom-0 w-0.5 ${lineColor}`}
